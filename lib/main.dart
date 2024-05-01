@@ -29,7 +29,7 @@ class _ChatScreenState extends State<ChatScreen> {
   List<Map<String, String>> _chat = [];
 
   Future<String> getOpenAIResponse(String query) async {
-    String apiKey = 'sk-proj-Si0AB8DPAMcigvqVc5aMT3BlbkFJGlEQMcZ93DBmOhTmS1WZ';
+    String apiKey = 'your-api-key';
     String endpoint = 'https://api.openai.com/v1/chat/completions';
 
     Map<String, String> headers = {
